@@ -68,7 +68,7 @@ while True:
     print("Hastalığın şiddeti:",siddet)
 
     if antikorMiktari<5 and kanamaSayisi>3: #profilaksi uygulanacaksa bunlar hesaplanıyor
-     if faktorMiktari < 1 or faktorMiktari<5 :
+     if  faktorMiktari<5 :
          print("Hastaya profilaksi uyulanacaktır.")
          if hemoTip=="A"or hemoTip=="a":
              faktorTipi="faktör-8"
